@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d35ea90a8dcb444c9231fb8decd26357 {
+                #map_57126129322442428dbd8b25d194707f {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -44,15 +44,15 @@
                 <p align="center" style="vertical-align: bottom; font-size:13px"><i>Pre-pandemic, a non-waterfront home sale in Miami Beach over $5M was unheard of.</i></p>
                 
     
-            <div class="folium-map" id="map_d35ea90a8dcb444c9231fb8decd26357" ></div>
+            <div class="folium-map" id="map_57126129322442428dbd8b25d194707f" ></div>
         
 </body>
 <script>    
     
-            var map_d35ea90a8dcb444c9231fb8decd26357 = L.map(
-                "map_d35ea90a8dcb444c9231fb8decd26357",
+            var map_57126129322442428dbd8b25d194707f = L.map(
+                "map_57126129322442428dbd8b25d194707f",
                 {
-                    center: [25.805835533333333, -80.13495676666666],
+                    center: [25.79966005, -80.14268287499999],
                     crs: L.CRS.EPSG3857,
                     zoom: 14,
                     zoomControl: true,
@@ -64,25 +64,25 @@
 
         
     
-            var tile_layer_d79e81062b7b42b3a9d39423ea91d2ec = L.tileLayer(
+            var tile_layer_4c658271e4994a488a6eb67201b7cc9f = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_d35ea90a8dcb444c9231fb8decd26357);
+            ).addTo(map_57126129322442428dbd8b25d194707f);
         
     
-            var marker_cluster_296bf649430d411c891f2a1edefdd9f6 = L.markerClusterGroup(
+            var marker_cluster_ffb359c4ee8d49a08f169832a9c2ca12 = L.markerClusterGroup(
                 {}
             );
-            map_d35ea90a8dcb444c9231fb8decd26357.addLayer(marker_cluster_296bf649430d411c891f2a1edefdd9f6);
+            map_57126129322442428dbd8b25d194707f.addLayer(marker_cluster_ffb359c4ee8d49a08f169832a9c2ca12);
         
     
-            var marker_ef6fe9525b6f43c08399be646b4a63a3 = L.marker(
+            var marker_cfb7d26454ee496a835a7af190838940 = L.marker(
                 [25.8201721, -80.13459329999999],
                 {}
-            ).addTo(marker_cluster_296bf649430d411c891f2a1edefdd9f6);
+            ).addTo(marker_cluster_ffb359c4ee8d49a08f169832a9c2ca12);
         
     
-            marker_ef6fe9525b6f43c08399be646b4a63a3.bindTooltip(
+            marker_cfb7d26454ee496a835a7af190838940.bindTooltip(
                 `<div>
                      Sale Price: <strong>$6.3M</strong><br>Buyer: <strong>Bryant Yunker Jr. and Nancy Yunker</strong><br>Seller: <strong>Orlandus Andre Branch III</strong><br>Address: <strong>4535 Nautilus Court, Miami Beach, FL</strong>
                  </div>`,
@@ -90,13 +90,13 @@
             );
         
     
-            var marker_40a1103b89b74f18965839d97ab07008 = L.marker(
+            var marker_ef21201997704175938c4c085670537c = L.marker(
                 [25.7976922, -80.13559649999999],
                 {}
-            ).addTo(marker_cluster_296bf649430d411c891f2a1edefdd9f6);
+            ).addTo(marker_cluster_ffb359c4ee8d49a08f169832a9c2ca12);
         
     
-            marker_40a1103b89b74f18965839d97ab07008.bindTooltip(
+            marker_ef21201997704175938c4c085670537c.bindTooltip(
                 `<div>
                      Sale Price: <strong>$5M</strong><br>Buyer: <strong>Allon and Allison Bloch</strong><br>Seller: <strong>2035 Meridian LLC</strong><br>Address: <strong>2035 North Meridian Avenue, Miami Beach, FL</strong>
                  </div>`,
@@ -104,15 +104,29 @@
             );
         
     
-            var marker_9e06ef179b734352a5dc3ef9ed00fe74 = L.marker(
+            var marker_ed262770f2ee4a59aad7b30d32a01b58 = L.marker(
                 [25.7996423, -80.1346805],
                 {}
-            ).addTo(marker_cluster_296bf649430d411c891f2a1edefdd9f6);
+            ).addTo(marker_cluster_ffb359c4ee8d49a08f169832a9c2ca12);
         
     
-            marker_9e06ef179b734352a5dc3ef9ed00fe74.bindTooltip(
+            marker_ed262770f2ee4a59aad7b30d32a01b58.bindTooltip(
                 `<div>
                      Sale Price: <strong>$5.5M</strong><br>Buyer: <strong>Zachi and Ekaterina Wainstein</strong><br>Seller: <strong>Sabal Development</strong><br>Address: <strong>2211 Meridian Avenue, Miami Beach, FL</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd20cf826ef84535947227d281b92d5f = L.marker(
+                [25.7811336, -80.1658612],
+                {}
+            ).addTo(marker_cluster_ffb359c4ee8d49a08f169832a9c2ca12);
+        
+    
+            marker_bd20cf826ef84535947227d281b92d5f.bindTooltip(
+                `<div>
+                     Sale Price: <strong>$6M</strong><br>Buyer: <strong>David Gebbia</strong><br>Seller: <strong>SG&LL VENTURES LLC</strong><br>Address: <strong>254 Palm Avenue, Miami Beach, FL</strong>
                  </div>`,
                 {"sticky": true}
             );
