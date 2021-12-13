@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_892d39d422d340d58c7756c38543c082 {
+                #map_289930bf2df8458ea5def68adf825fc3 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -44,15 +44,15 @@
                 <p align="center" style="vertical-align: bottom; font-size:13px"><i>Pre-pandemic, a non-waterfront home sale in Miami Beach over $5M was unheard of.</i></p>
                 
     
-            <div class="folium-map" id="map_892d39d422d340d58c7756c38543c082" ></div>
+            <div class="folium-map" id="map_289930bf2df8458ea5def68adf825fc3" ></div>
         
 </body>
 <script>    
     
-            var map_892d39d422d340d58c7756c38543c082 = L.map(
-                "map_892d39d422d340d58c7756c38543c082",
+            var map_289930bf2df8458ea5def68adf825fc3 = L.map(
+                "map_289930bf2df8458ea5def68adf825fc3",
                 {
-                    center: [25.79966005, -80.14268287499999],
+                    center: [25.80154402, -80.14032344],
                     crs: L.CRS.EPSG3857,
                     zoom: 13,
                     zoomControl: true,
@@ -64,25 +64,25 @@
 
         
     
-            var tile_layer_e4221d17335e4536a262edff1a30f1e3 = L.tileLayer(
+            var tile_layer_aba18440e6564df1960d2d15775f54b4 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_892d39d422d340d58c7756c38543c082);
+            ).addTo(map_289930bf2df8458ea5def68adf825fc3);
         
     
-            var marker_cluster_6dc143ac0350487f9a00f4c0c93e0563 = L.markerClusterGroup(
+            var marker_cluster_25609e4a6c4a447f8d6ebd9a22282407 = L.markerClusterGroup(
                 {}
             );
-            map_892d39d422d340d58c7756c38543c082.addLayer(marker_cluster_6dc143ac0350487f9a00f4c0c93e0563);
+            map_289930bf2df8458ea5def68adf825fc3.addLayer(marker_cluster_25609e4a6c4a447f8d6ebd9a22282407);
         
     
-            var marker_7059722e0c11454ba81385281ddd335d = L.marker(
+            var marker_2bb2fc4926d44514a5a0f8a3d0c13f5e = L.marker(
                 [25.8201721, -80.13459329999999],
                 {}
-            ).addTo(marker_cluster_6dc143ac0350487f9a00f4c0c93e0563);
+            ).addTo(marker_cluster_25609e4a6c4a447f8d6ebd9a22282407);
         
     
-            marker_7059722e0c11454ba81385281ddd335d.bindTooltip(
+            marker_2bb2fc4926d44514a5a0f8a3d0c13f5e.bindTooltip(
                 `<div>
                      Sale Price: <strong>$6.3M</strong><br>Buyer: <strong>Bryant Yunker Jr. and Nancy Yunker</strong><br>Seller: <strong>Orlandus Andre Branch III</strong><br>Address: <strong>4535 Nautilus Court, Miami Beach, FL</strong>
                  </div>`,
@@ -90,13 +90,13 @@
             );
         
     
-            var marker_7416f9713fd9426ab03702419ab512ed = L.marker(
+            var marker_196786a441314cd0bc9a93a917b80ff4 = L.marker(
                 [25.7976922, -80.13559649999999],
                 {}
-            ).addTo(marker_cluster_6dc143ac0350487f9a00f4c0c93e0563);
+            ).addTo(marker_cluster_25609e4a6c4a447f8d6ebd9a22282407);
         
     
-            marker_7416f9713fd9426ab03702419ab512ed.bindTooltip(
+            marker_196786a441314cd0bc9a93a917b80ff4.bindTooltip(
                 `<div>
                      Sale Price: <strong>$5M</strong><br>Buyer: <strong>Allon and Allison Bloch</strong><br>Seller: <strong>2035 Meridian LLC</strong><br>Address: <strong>2035 North Meridian Avenue, Miami Beach, FL</strong>
                  </div>`,
@@ -104,13 +104,13 @@
             );
         
     
-            var marker_375ee0fa80144d7ab1bb2a736a3617ae = L.marker(
+            var marker_20c72eddf06c4bbc96899824b1596a27 = L.marker(
                 [25.7996423, -80.1346805],
                 {}
-            ).addTo(marker_cluster_6dc143ac0350487f9a00f4c0c93e0563);
+            ).addTo(marker_cluster_25609e4a6c4a447f8d6ebd9a22282407);
         
     
-            marker_375ee0fa80144d7ab1bb2a736a3617ae.bindTooltip(
+            marker_20c72eddf06c4bbc96899824b1596a27.bindTooltip(
                 `<div>
                      Sale Price: <strong>$5.5M</strong><br>Buyer: <strong>Zachi and Ekaterina Wainstein</strong><br>Seller: <strong>Sabal Development</strong><br>Address: <strong>2211 Meridian Avenue, Miami Beach, FL</strong>
                  </div>`,
@@ -118,15 +118,29 @@
             );
         
     
-            var marker_d8bb79fe1b094dbaa7bff6e1ee829b71 = L.marker(
+            var marker_b94daf17652342c990ef614a63471915 = L.marker(
                 [25.7811336, -80.1658612],
                 {}
-            ).addTo(marker_cluster_6dc143ac0350487f9a00f4c0c93e0563);
+            ).addTo(marker_cluster_25609e4a6c4a447f8d6ebd9a22282407);
         
     
-            marker_d8bb79fe1b094dbaa7bff6e1ee829b71.bindTooltip(
+            marker_b94daf17652342c990ef614a63471915.bindTooltip(
                 `<div>
                      Sale Price: <strong>$5.8M</strong><br>Buyer: <strong>David Gebbia</strong><br>Seller: <strong>SG&LL Ventures LLC</strong><br>Address: <strong>254 Palm Avenue, Miami Beach, FL</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3b0f023c2d3417990ace2c9483dff7b = L.marker(
+                [25.8090799, -80.1308857],
+                {}
+            ).addTo(marker_cluster_25609e4a6c4a447f8d6ebd9a22282407);
+        
+    
+            marker_c3b0f023c2d3417990ace2c9483dff7b.bindTooltip(
+                `<div>
+                     Sale Price: <strong>$6.55M</strong><br>Buyer: <strong>Fazeel Khan - per a source</strong><br>Seller: <strong>Jose, Marta and Alexander Prieto</strong><br>Address: <strong>3175 Prairie Avenue, Miami Beach, FL</strong>
                  </div>`,
                 {"sticky": true}
             );
